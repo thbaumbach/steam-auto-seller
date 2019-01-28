@@ -1,0 +1,15 @@
+{
+  "name": "steam-auto-seller",
+  "version": "1.0.0",
+  "description": "auto-sell items from your Steam inventory",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thomas Baumbach <tom@xolo.pw>",
+  "license": "Beerware",
+  "dependencies": {
+    "async": "^2.6.1",
+    "request": "^2.88.0"
+  }
+}
