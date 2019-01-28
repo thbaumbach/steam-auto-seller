@@ -2,13 +2,13 @@
 
 > auto-sell items from your Steam inventory
 
-Be careful, it's a just-for-fun project and not thoroughly tested. No garanty or warranty for anything.
+Be careful, it's a just-for-fun project and not thoroughly tested. No guaranty or warranty for anything.
 
 The price will be set to `(lowest_price / 1.15 - 0.02) €/$` aka 0.01 below the lowest current price (according to the Steam API).
 
 ## HowTo
 
-Go to steamcommunity.com and login, check the Cookies (CTRL+i) and extract `sessionid` and `steamLoginSecure`.
+Go to `steamcommunity.com` and login. Check the cookies (CTRL+i) and extract `sessionid` and `steamLoginSecure`.
 
 Replace the value of `SESSION_ID` and `STEAM_LOGIN_SECURE` in the file `index.js` with the data from the cookie.
 
